@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="24dp" />
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/icon_login"/>
 
     <EditText
         android:id="@+id/edPSignup"
@@ -26,7 +27,8 @@
         android:layout_height="wrap_content"
         android:hint="Mật khẩu"
         android:inputType="textPassword"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/icon_pass"/>
 
     <EditText
         android:id="@+id/edRePass"
@@ -34,7 +36,8 @@
         android:layout_height="wrap_content"
         android:hint="Nhập lại mật khẩu"
         android:inputType="textPassword"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/icon_pass"/>
 
     <Button
         android:id="@+id/btnSignup"

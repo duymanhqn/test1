@@ -18,7 +18,9 @@
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="24dp" />
+        android:drawableStart="@drawable/icon_login"
+        android:layout_marginTop="24dp"/>
+
 
     <EditText
         android:id="@+id/edPassword"
@@ -26,7 +28,10 @@
         android:layout_height="wrap_content"
         android:hint="Mật khẩu"
         android:inputType="textPassword"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/icon_pass"
+
+        />
 
     <Button
         android:id="@+id/btnLogin"
